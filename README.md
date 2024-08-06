@@ -25,9 +25,10 @@ SkillUp uses a monolithic architecture, with the backend built using Node.js and
 - **Payment Integration:** Students will purchase and enroll in courses by completing the checkout flow, followed by Razorpay integration for payment handling.
 - **Cloud-based Media Management:** StudyNotion uses Cloudinary, a cloud-based media management service, to store and manage all media content, including images, videos, and documents.
 - **Markdown Formatting:** Course content in document format is stored in Markdown format, allowing for easier display and rendering on the front-end.
+- 
 
 
-#### Back-end Frameworks, Libraries, and Tools
+### Back-end Frameworks, Libraries, and Tools
 
 The back-end of StudyNotion uses various frameworks, libraries, and tools to ensure its functionality and performance, including:
 
@@ -37,8 +38,9 @@ The back-end of StudyNotion uses various frameworks, libraries, and tools to ens
 - **JWT (JSON Web Tokens):** Used for authentication and authorization, providing a secure and reliable way to manage user credentials.
 - **Bcrypt:** Used for password hashing, adding an extra layer of security to user data.
 - **Mongoose:** Used as an Object Data Modeling (ODM) library, providing a way to interact with MongoDB using JavaScript.
+  
 
-#### Data Models and Database Schema
+### Data Models and Database Schema
 
 The back-end of StudyNotion uses several data models and database schemas to manage data, including:
 
@@ -50,4 +52,3 @@ The back-end of StudyNotion uses several data models and database schemas to man
 
 The database for the platform is built using MongoDB, a NoSQL database that provides a flexible and scalable data storage solution. MongoDB allows for the storage of unstructured and semi-structured data. The database stores the course content, user data, and other relevant information related to the platform.
 
-![Database Schema](img/schema.png)
