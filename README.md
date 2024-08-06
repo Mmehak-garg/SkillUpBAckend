@@ -4,7 +4,14 @@
 1. Clone the repository: `https://github.com/Mmehak-garg/SkillUpBAckend.git`
 2. Navigate to the project directory: `cd `
 3. Install dependencies: `npm install`
-   
+
+## Configuration
+
+1. Replace an `example.env` files with your enviroment virables
+2. Start the  server.
+    ```sh
+    npm run dev
+    ```
 ## Contributing
 Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
 
@@ -52,7 +59,7 @@ The back-end of StudyNotion uses several data models and database schemas to man
 
 The database for the platform is built using MongoDB, a NoSQL database that provides a flexible and scalable data storage solution. MongoDB allows for the storage of unstructured and semi-structured data. The database stores the course content, user data, and other relevant information related to the platform.
 
-
+![Database Schema](img/db.png)
 ### API Design
 
 StudyNotion's API follows the REST architectural style, implemented using Node.js and Express.js. It uses JSON for data exchange and standard HTTP request methods. Sample API endpoints include:
