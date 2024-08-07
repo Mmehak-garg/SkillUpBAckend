@@ -89,7 +89,6 @@ Sample API requests and responses:
 - `DELETE /api/courses/:id`: Delete a course by ID
 - Response: A success message indicating that the course has been deleted.
 
-[PostMan](https://study-notion-mega-project-frontend.vercel.app/)
 
 Thank you
 
