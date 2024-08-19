@@ -31,55 +31,56 @@ The database is built using MongoDB, a NoSQL database that provides flexible and
 - `POST /api/auth/verify-otp`: Verify OTP sent to the user's email.
   
   #### OTP Create
-  <img src="./img/OTP_create.png" alt="OTP Create" width="400"/>
+  <img src="./img/OTP_create.png" alt="OTP Create" width="600"/>
   
   #### OTP Email Sent
-  <img src="./img/OTP_EMAIL.png" alt="OTP Email" width="400"/>
+  <img src="./img/OTP_EMAIL.png" alt="OTP Email" width="600"/>
   
   #### OTP Postman
-  <img src="./img/OTP_POSTMAN.png" alt="OTP Postman" width="400"/>
+  <img src="./img/OTP_POSTMAN.png" alt="OTP Postman" width="600"/>
 
 ### User Management
 
 - `POST /api/auth/signup`: Create a new user account.
   
   #### Sign Up
-  <img src="./img/SIGN_up.png" alt="Sign Up" width="400"/>
+  <img src="./img/SIGN_up.png" alt="Sign Up" width="600"/>
   
   #### User
-  <img src="./img/User.png" alt="User" width="400"/>
+  <img src="./img/User.png" alt="User" width="600"/>
   
 - `POST /api/auth/login`: Log in and generate a JWT token.
   
   #### Log In
-  <img src="./img/log_in.png" alt="Log In" width="400"/>
+  <img src="./img/log_in.png" alt="Log In" width="600"/>
   
   #### Token
-  <img src="./img/token.png" alt="Token" width="400"/>
+  <img src="./img/token.png" alt="Token" width="600"/>
 
 - `POST /api/auth/reset-password`: Reset user password.
   
   #### Reset Password
-  <img src="./img/Reset_password.png" alt="Reset Password" width="400"/>
+  <img src="./img/Reset_password.png" alt="Reset Password" width="600"/>
   
   #### Reset Email
-  <img src="./img/reset_email.png" alt="Reset Email" width="400"/>
+  <img src="./img/reset_email.png" alt="Reset Email" width="600"/>
   
   #### User Entry
-  <img src="./img/user_entry.png" alt="User Entry" width="400"/>
+  <img src="./img/user_entry.png" alt="User Entry" width="600"/>
 
 ### Course Management
 
 - `POST /api/courses`: Create a new course.
   
   #### Category
-  <img src="./img/cata.png" alt="Category" width="400"/>
+  <img src="./img/cata.png" alt="Category" width="600"/>
   
   #### Courses
-  <img src="./img/courses.png" alt="Courses" width="400"/>
+  <img src="./img/courses.png" alt="Courses" width="600"/>
   
   #### Subsection
-  <img src="./img/subsection.png" alt="Subsection" width="400"/>
+  <img src="./img/subsection.png" alt="Subsection" width="600"/>
+
 
 
 ## API Design
