@@ -18,21 +18,6 @@ The application follows a monolithic architecture, with the backend built using 
 - **Cloud-based Media Management:**
   - SkillUP uses Cloudinary, a cloud-based media management service, to store and manage all media content, including images, videos, and documents.
 
-### Back-end Frameworks, Libraries, and Tools
-
-- **Node.js:** Primary framework for the back-end.
-- **Express.js:** Web application framework, providing a range of features and tools for building web applications.
-- **MongoDB:** Primary database, offering a flexible and scalable data storage solution.
-- **JWT (JSON Web Tokens):** Used for authentication and authorization, providing secure management of user credentials.
-- **Bcrypt:** Utilized for password hashing, adding an extra layer of security to user data.
-- **Mongoose:** Object Data Modeling (ODM) library, providing a way to interact with MongoDB using JavaScript.
-
-### Data Models and Database Schema
-
-- **Student Schema:** Fields include name, email, password, and course details.
-- **Instructor Schema:** Fields include name, email, password, and course details.
-- **Course Schema:** Fields include course name, description, instructor details, and media content.
-
 ### Database
 
 The database is built using MongoDB, a NoSQL database that provides flexible and scalable data storage. MongoDB is suitable for storing unstructured and semi-structured data. The database stores course content, user data, and other relevant information related to the platform.
