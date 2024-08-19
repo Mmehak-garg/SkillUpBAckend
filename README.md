@@ -31,55 +31,56 @@ The database is built using MongoDB, a NoSQL database that provides flexible and
 - `POST /api/auth/verify-otp`: Verify OTP sent to the user's email.
   
   #### OTP Create
-  ![OTP Create](./img/OTP_creater.png)
+  <img src="./img/OTP_create.png" alt="OTP Create" width="400"/>
   
   #### OTP Email Sent
-  ![OTP Email](./img/OTP_EMAIL.png)
+  <img src="./img/OTP_EMAIL.png" alt="OTP Email" width="400"/>
   
   #### OTP Postman
-  ![OTP Postman](./img/OTP_POSTMAN.png)
+  <img src="./img/OTP_POSTMAN.png" alt="OTP Postman" width="400"/>
 
 ### User Management
 
 - `POST /api/auth/signup`: Create a new user account.
   
   #### Sign Up
-  ![Sign Up](./img/SIGN_up.png)
+  <img src="./img/SIGN_up.png" alt="Sign Up" width="400"/>
   
   #### User
-  ![User](./img/User.png)
+  <img src="./img/User.png" alt="User" width="400"/>
   
 - `POST /api/auth/login`: Log in and generate a JWT token.
   
   #### Log In
-  ![Log In](./img/log_in.png)
+  <img src="./img/log_in.png" alt="Log In" width="400"/>
   
   #### Token
-  ![Token](./img/token.png)
+  <img src="./img/token.png" alt="Token" width="400"/>
 
 - `POST /api/auth/reset-password`: Reset user password.
   
   #### Reset Password
-  ![Reset Password](./img/Reset_password.png)
+  <img src="./img/Reset_password.png" alt="Reset Password" width="400"/>
   
   #### Reset Email
-  ![Reset Email](./img/reset_email.png)
+  <img src="./img/reset_email.png" alt="Reset Email" width="400"/>
   
   #### User Entry
-  ![User Entry](./img/user_entry.png)
+  <img src="./img/user_entry.png" alt="User Entry" width="400"/>
 
 ### Course Management
 
 - `POST /api/courses`: Create a new course.
   
   #### Category
-  ![Category](./img/cata.png)
+  <img src="./img/cata.png" alt="Category" width="400"/>
   
   #### Courses
-  ![Courses](./img/courses.png)
+  <img src="./img/courses.png" alt="Courses" width="400"/>
   
   #### Subsection
-  ![Subsection](./img/subsection.png)
+  <img src="./img/subsection.png" alt="Subsection" width="400"/>
+
 
 ## API Design
 
